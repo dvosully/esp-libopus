@@ -10,8 +10,8 @@ of an ESP project, using `git submodule add` to clone this repo into there,
 and to ensure that this new component is recognized via `make list-components`.
 
 After adding this component to the build configuration, the "opus.h" file
-can be included. All *fixed point* and *floating point* Opus decoder and encoder
-methods are available, consult the Opus documentation for examples.
+can be included. All *fixed point* Opus decoder and encoder methods are
+available, consult the Opus documentation for examples.
 
 ### Demo
 To build a demo application with the ESP32, simply:
