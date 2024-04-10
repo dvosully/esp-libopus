@@ -5,12 +5,14 @@ file(GLOB fixed "opus/silk/fixed/*.c")
 file(GLOB float "opus/silk/float/*.c")
 
 
-idf_component_register(SRCS "${srcs}" "${silk}" "${celt}" "${fixed}" #"${float}"
+idf_component_register(SRCS "${srcs}" "${silk}" "${celt}"
+                      "${fixed}"
+                      #"${float}"
                       INCLUDE_DIRS .
                       "opus/include"
                       "opus/silk"
                       "opus/silk/fixed"
-                      "opus/silk/float"
+                      #"opus/silk/float"
                       "opus/celt"
                       )
 
